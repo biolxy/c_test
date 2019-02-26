@@ -5,5 +5,6 @@
     "code-runner.executorMap": {
     "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt -Wall -g3 -Og -static-libgcc -std=c11 && $fileNameWithoutExt",
     "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -Wall -g3 -Og -static-libgcc -std=c++14 && $fileNameWithoutExt"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
